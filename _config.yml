@@ -1,0 +1,40 @@
+# --- Site identity ---------------------------------------------------------
+title: Chandra Deb
+description: Notes, essays, and experiments by Chandra Deb.
+url: "https://chandra-deb.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Chandra Deb
+
+# --- Build -----------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+future: false
+# Post dates are interpreted in this timezone. Change it if you move.
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+feed:
+  posts_limit: 20
+
+exclude:
+  - README.md
+  - WRITING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
