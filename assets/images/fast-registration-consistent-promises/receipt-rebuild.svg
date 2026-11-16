@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="675" viewBox="0 0 760 675" role="img" aria-labelledby="title desc">
+<title id="title">A rebuild erases the original receipt</title><desc id="desc">CONTROLLED REPRODUCTION · Rebuild + competitor + retry</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0,0 L9,4.5 L0,9" fill="#50617b"/></marker></defs>
+<rect width="760" height="675" rx="14" fill="#f7f9fc"/>
+<text x="30" y="40" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" fill="#17243b" font-weight="650" text-anchor="start">A rebuild erases the original receipt</text>
+<text x="30" y="69" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#50617b" font-weight="400" text-anchor="start">CONTROLLED REPRODUCTION · Rebuild + competitor + retry</text>
+<text x="45" y="114" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" fill="#50617b" font-weight="650" text-anchor="start">Step</text>
+<text x="270" y="114" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" fill="#087c72" font-weight="650" text-anchor="start">Redis / admission</text>
+<text x="540" y="114" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" fill="#245cc4" font-weight="650" text-anchor="start">PostgreSQL</text>
+<rect x="25" y="133" width="710" height="76" rx="10" fill="#ffffff" stroke="#ccd5e2" stroke-width="1.5"/>
+<text x="42" y="158" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">1. A registers</text>
+<text x="270" y="161" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="400" text-anchor="start">REGISTERED</text>
+<text x="270" y="186" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="400" text-anchor="start">Event queued</text>
+<text x="540" y="161" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">No row for A</text>
+<rect x="25" y="222" width="710" height="76" rx="10" fill="#ffffff" stroke="#ccd5e2" stroke-width="1.5"/>
+<text x="42" y="247" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">2. Rebuild</text>
+<text x="42" y="272" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">from database</text>
+<text x="270" y="250" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="400" text-anchor="start">A receipt erased</text>
+<text x="270" y="275" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="400" text-anchor="start">Count reset</text>
+<text x="540" y="250" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">No row for A</text>
+<rect x="25" y="311" width="710" height="76" rx="10" fill="#ffffff" stroke="#ccd5e2" stroke-width="1.5"/>
+<text x="42" y="336" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">3. B registers</text>
+<text x="270" y="339" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="400" text-anchor="start">B: REGISTERED</text>
+<text x="270" y="364" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="400" text-anchor="start">Seat reused</text>
+<text x="540" y="339" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">Events queued</text>
+<rect x="25" y="400" width="710" height="76" rx="10" fill="#ffffff" stroke="#ccd5e2" stroke-width="1.5"/>
+<text x="42" y="425" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">4. A retries</text>
+<text x="270" y="428" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#b24747" font-weight="400" text-anchor="start">A: WAITLIST</text>
+<text x="270" y="453" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#b24747" font-weight="400" text-anchor="start">Replacement receipt</text>
+<text x="540" y="428" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">Original A event</text>
+<text x="540" y="453" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">still queued</text>
+<rect x="25" y="489" width="710" height="76" rx="10" fill="#ffffff" stroke="#ccd5e2" stroke-width="1.5"/>
+<text x="42" y="514" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">5. Persist original</text>
+<text x="42" y="539" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="650" text-anchor="start">A event</text>
+<text x="270" y="517" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#b24747" font-weight="400" text-anchor="start">A: WAITLIST</text>
+<text x="270" y="542" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#b24747" font-weight="400" text-anchor="start">Receipt unchanged</text>
+<text x="540" y="517" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">A: REGISTERED</text>
+<text x="540" y="542" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="400" text-anchor="start">Original event commits</text>
+<rect x="25" y="598" width="710" height="53" rx="10" fill="#fff2ef" stroke="#dfb3ac" stroke-width="1.5"/>
+<text x="380" y="631" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" fill="#b24747" font-weight="650" text-anchor="middle">Refresh shows WAITLISTED from the replacement Redis receipt.</text>
+</svg>

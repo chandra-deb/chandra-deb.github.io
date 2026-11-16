@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="475" viewBox="0 0 760 475" role="img" aria-labelledby="title desc">
+<title id="title">Measured service-call latency</title><desc id="desc">LOCAL SAMPLE · 600 operations per stage · One sequential client</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse"><path d="M0,0 L9,4.5 L0,9" fill="#50617b"/></marker></defs>
+<rect width="760" height="475" rx="14" fill="#f7f9fc"/>
+<text x="30" y="40" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" fill="#17243b" font-weight="650" text-anchor="start">Measured service-call latency</text>
+<text x="30" y="69" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#50617b" font-weight="400" text-anchor="start">LOCAL SAMPLE · 600 operations per stage · One sequential client</text>
+<text x="35" y="149" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" fill="#17243b" font-weight="650" text-anchor="start">p50</text>
+<rect x="110" y="120" width="59.775" height="24" rx="10" fill="#087c72" stroke="#087c72" stroke-width="1.5"/>
+<text x="179.775" y="138" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="650" text-anchor="start">3.99 ms</text>
+<rect x="110" y="151" width="194.115" height="24" rx="10" fill="#245cc4" stroke="#245cc4" stroke-width="1.5"/>
+<text x="314.115" y="169" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="650" text-anchor="start">12.94 ms</text>
+<text x="35" y="244" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" fill="#17243b" font-weight="650" text-anchor="start">p95</text>
+<rect x="110" y="215" width="98.11500000000001" height="24" rx="10" fill="#087c72" stroke="#087c72" stroke-width="1.5"/>
+<text x="218.115" y="233" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="650" text-anchor="start">6.54 ms</text>
+<rect x="110" y="246" width="271.815" height="24" rx="10" fill="#245cc4" stroke="#245cc4" stroke-width="1.5"/>
+<text x="391.815" y="264" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="650" text-anchor="start">18.12 ms</text>
+<text x="35" y="339" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" fill="#17243b" font-weight="650" text-anchor="start">p99</text>
+<rect x="110" y="310" width="166.23" height="24" rx="10" fill="#087c72" stroke="#087c72" stroke-width="1.5"/>
+<text x="286.23" y="328" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#087c72" font-weight="650" text-anchor="start">11.08 ms</text>
+<rect x="110" y="341" width="422.925" height="24" rx="10" fill="#245cc4" stroke="#245cc4" stroke-width="1.5"/>
+<text x="542.925" y="359" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#245cc4" font-weight="650" text-anchor="start">28.20 ms</text>
+<rect x="45" y="417" width="18" height="18" rx="10" fill="#087c72" stroke="#087c72" stroke-width="1.5"/>
+<text x="73" y="432" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="400" text-anchor="start">Admission</text>
+<rect x="265" y="417" width="18" height="18" rx="10" fill="#245cc4" stroke="#245cc4" stroke-width="1.5"/>
+<text x="293" y="432" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#17243b" font-weight="400" text-anchor="start">PostgreSQL persist + commit</text>
+<text x="380" y="461" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#50617b" font-weight="400" text-anchor="middle">No HTTP or worker queue · Redis persistence off · PostgreSQL on tmpfs</text>
+</svg>

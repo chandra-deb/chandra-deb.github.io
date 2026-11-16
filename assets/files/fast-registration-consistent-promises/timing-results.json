@@ -1,0 +1,112 @@
+{
+  "redis_version": "8.6.1",
+  "postgres_version": "PostgreSQL 15.16 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit",
+  "admission": {
+    "p50_ms": 3.985,
+    "p95_ms": 6.541,
+    "p99_ms": 11.082,
+    "samples": 600
+  },
+  "postgres_commit_call": {
+    "p50_ms": 12.941,
+    "p95_ms": 18.121,
+    "p99_ms": 28.195,
+    "samples": 600
+  },
+  "runs": [
+    {
+      "run": 1,
+      "admission": {
+        "p50_ms": 3.945,
+        "p95_ms": 6.885,
+        "p99_ms": 10.549,
+        "samples": 200
+      },
+      "postgres_commit_call": {
+        "p50_ms": 12.763,
+        "p95_ms": 18.121,
+        "p99_ms": 27.469,
+        "samples": 200
+      },
+      "measured_outcomes": {
+        "REGISTERED": 100,
+        "WAITLIST": 100
+      },
+      "final_rows_including_warmup": {
+        "registered": 120,
+        "waiting": 100
+      }
+    },
+    {
+      "run": 2,
+      "admission": {
+        "p50_ms": 3.944,
+        "p95_ms": 6.466,
+        "p99_ms": 12.731,
+        "samples": 200
+      },
+      "postgres_commit_call": {
+        "p50_ms": 13.066,
+        "p95_ms": 18.011,
+        "p99_ms": 24.227,
+        "samples": 200
+      },
+      "measured_outcomes": {
+        "REGISTERED": 100,
+        "WAITLIST": 100
+      },
+      "final_rows_including_warmup": {
+        "registered": 120,
+        "waiting": 100
+      }
+    },
+    {
+      "run": 3,
+      "admission": {
+        "p50_ms": 4.026,
+        "p95_ms": 6.386,
+        "p99_ms": 11.022,
+        "samples": 200
+      },
+      "postgres_commit_call": {
+        "p50_ms": 12.913,
+        "p95_ms": 17.819,
+        "p99_ms": 28.195,
+        "samples": 200
+      },
+      "measured_outcomes": {
+        "REGISTERED": 100,
+        "WAITLIST": 100
+      },
+      "final_rows_including_warmup": {
+        "registered": 120,
+        "waiting": 100
+      }
+    }
+  ],
+  "date_local": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "python": "3.14.3",
+  "platform": "Linux-7.2.6-76070206-generic-x86_64-with-glibc2.39",
+  "logical_cpus_visible": 4,
+  "source_commit": "d4e390f91ae0c2f0910700aeb1b171c895be23cb",
+  "docker_server_version": "29.2.1",
+  "method": {
+    "runs": 3,
+    "warmup_per_run": 20,
+    "measured_per_run": 200,
+    "concurrent_clients": 1,
+    "activities_per_run": 1,
+    "percentiles": "nearest-rank, pooled samples",
+    "redis_persistence": "disabled",
+    "postgres_data": "tmpfs",
+    "transport": "Python service calls to Docker loopback ports",
+    "excluded": [
+      "HTTP, TLS, authentication, browser",
+      "worker scheduling, stream consumption, XACK",
+      "receipt HGET between stages",
+      "setup and warmup"
+    ],
+    "note": "Not a throughput, contention, HTTP, or disk-durability benchmark"
+  }
+}
