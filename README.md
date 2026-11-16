@@ -10,7 +10,7 @@ A minimal personal blog, built with Jekyll and published automatically by GitHub
 - Commit and push to `main`.
 - GitHub Pages builds the site and publishes it. There is no separate deploy command.
 
-Everything else is intentionally small: a typography-first layout, tags, RSS, a sitemap, and SEO metadata. The design follows the visitor's light or dark system preference.
+Everything else is intentionally small: a typography-first layout, tags, RSS, a sitemap, and SEO metadata. The design defaults to light mode. Readers can switch between light and dark using the header toggle; their choice is saved in their browser for future pages and visits.
 
 ## Publish a post
 
@@ -81,6 +81,7 @@ about.md               About page
 404.html               Not-found page
 assets/css/site.css    All styles
 assets/js/tags.js      Tag filtering
+assets/js/theme.js     Light/dark toggle and saved preference
 assets/images/         Post images
 WRITING.md             House rules for writing and publishing
 ```
