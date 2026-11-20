@@ -82,4 +82,4 @@ We deliberately built a problem where most features are worthless. This lets us 
 
 ---
 
-*Previous: [Post 1 — The Big Picture](/fit-fail-fix-the-big-picture/) · Next in the series: **Post 3 — Linear Regression From Scratch**.*
+*Previous: [Post 1 — The Big Picture](/fit-fail-fix-the-big-picture/) · Next: [Post 3 — Linear Regression From Scratch](/fit-fail-fix-linear-regression-from-scratch/).*
