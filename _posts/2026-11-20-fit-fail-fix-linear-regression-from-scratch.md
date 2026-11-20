@@ -93,4 +93,4 @@ The model recovered the general shape of the true rule — four weights are in t
 
 ---
 
-*Previous: [Post 2 — Making the Data](/fit-fail-fix-making-the-data/) · Next in the series: **Post 4 — Overfitting: When More Is Worse**.*
+*Previous: [Post 2 — Making the Data](/fit-fail-fix-making-the-data/) · Next: [Post 4 — Overfitting: When More Is Worse](/fit-fail-fix-overfitting-when-more-is-worse/).*
