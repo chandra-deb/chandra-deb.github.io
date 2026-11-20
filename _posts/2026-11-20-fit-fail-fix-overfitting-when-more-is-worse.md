@@ -71,4 +71,4 @@ Two obvious options:
 
 ---
 
-*Previous: [Post 3 — Linear Regression From Scratch](/fit-fail-fix-linear-regression-from-scratch/) · Next in the series: **Post 5 — Ridge Regularisation**.*
+*Previous: [Post 3 — Linear Regression From Scratch](/fit-fail-fix-linear-regression-from-scratch/) · Next: [Post 5 — Ridge Regularisation](/fit-fail-fix-ridge-regularisation/).*
