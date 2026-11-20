@@ -63,4 +63,4 @@ In this lab, the flexible 40-feature model gets a *much better* training score t
 
 ---
 
-*Next in the series: **Post 2 — Making the Data**, on building a tiny world where we secretly know all the answers.*
+*Next: [Post 2 — Making the Data](/fit-fail-fix-making-the-data/), on building a tiny world where we secretly know all the answers.*
