@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Designing Campusly AI: From Group Chats to an Organizer Workspace"
-description: "Why I'm exploring an organizer-first AI experience for Campusly, and the product decisions we're making before implementation."
+description: "Designing Campusly AI to reduce organizer busywork and distractions, leaving more time to create better student activities."
 tags:
   - campusly
   - product-design
@@ -20,7 +20,7 @@ Usually, that work is scattered across group chats and other tools. One group di
 
 I've been asking myself a different question lately:
 
-**What if Campusly helped organizers coordinate the work, instead of only recording the results?**
+**What if Campusly could reduce the time organizers spend coordinating routine work, cut down distractions, and give them more time to make their activities genuinely better?**
 
 This post is a snapshot of our current product thinking. I'm deliberately staying at the user-experience level. The engineering design and experiments deserve their own posts later.
 
@@ -32,13 +32,25 @@ The friction appears *between* conversations.
 
 Imagine preparing a programming competition. You need to know whether the technical team has finished setting up, whether publicity materials are ready, and whether students understand what to bring. You might have to visit several chats, scroll through replies, repeat a question, and then check activity details elsewhere.
 
-Each individual step is small. Together, they consume attention.
+Each individual step is small. Together, they consume attention. Constantly switching between chats, checking for updates, and repeating information also breaks concentration. The cost isn't only time; it's the attention that could have gone into improving the activity itself.
 
 A tempting solution would be to build a more powerful group chat inside Campusly. But I don't think that's enough. Replacing one set of chat windows with another doesn't automatically make coordination easier.
 
 The product should understand that these conversations belong to an organization, its teams, and its activities.
 
 That's the opportunity I'm interested in.
+
+## Less administration, more attention for the activity
+
+I don't want to build AI features simply because they make a demo look impressive. The real goal is to **give organizers back time and focus**.
+
+If Campusly can make the routine coordination less demanding, a competition organizer might spend more time improving problem quality and testing the event experience. A workshop team might concentrate on teaching materials and helping participants. A publicity team might have more room for creative work instead of chasing updates across groups.
+
+This isn't about eliminating the human work that makes an activity good. It is about reducing the repetitive overhead around that work.
+
+That's also how I want to judge whether this idea succeeds. It's not enough for an organizer to say the assistant looks useful. We should eventually test whether common coordination tasks take less time, whether people need to switch contexts less often, and whether organizers feel better able to concentrate on the quality of the experience they're creating.
+
+Those are goals to validate, not benefits we've measured yet.
 
 ## My current hypothesis: one workspace, three ways to work
 
@@ -80,7 +92,7 @@ The assistant summarizes the permitted replies and links back to the source.
 
 No second AI-only copy of the group conversation. No new place where teammates are expected to reply.
 
-This **ask → approve → send → receive → follow up** loop is the first experience I'd want to validate.
+This **ask → approve → send → receive → follow up** loop is the first experience I'd want to validate. If it works, the president spends less attention tracking the conversation and more on preparing a successful competition.
 
 ## A personal assistant is not the same as a group assistant
 
@@ -170,7 +182,9 @@ I'm writing this down now because ideas become surprisingly difficult to reconst
 
 The goal is not “add AI to Campusly.”
 
-The goal is to make organizing activities less fragmented, preserve useful knowledge when people leave, and keep humans in control of the work they are responsible for.
+The goal is to **spend less time managing the process and more time improving the activity**: fewer distractions, less repetitive coordination, better continuity when people leave, and more attention for the experiences organizers are trying to create.
+
+I don't yet know how much time this can save or how directly it will affect activity quality. That's what the prototype and real organizer feedback need to establish.
 
 Everything else—including the assistant interface—is a means to that end.
 
